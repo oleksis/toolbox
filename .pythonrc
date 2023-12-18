@@ -1,0 +1,30 @@
+import subprocess
+import sys
+
+try:
+    import rich
+except ModuleNotFoundError:
+    print(" -- Installing rich... ", end="")
+
+    try:
+        pip_rich = [
+            sys.executable,
+            "-m",
+            "pip",
+            "install",
+            "--no-cache-dir",
+            "-qq",
+            "--upgrade",
+            "rich",
+        ]
+        subprocess.run(pip_rich, check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"\n -- Error intalling rich package: {e}")
+        exit(1)
+
+    print("Done!")
+    import rich
+
+help = rich.inspect
+print = rich.print
+
