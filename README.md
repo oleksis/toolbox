@@ -1,6 +1,11 @@
 # toolbox
 🧩 Developers Toolbox
 
+|   |   |
+|---|---|
+| ![Downloading Monospace](docs/images/ohmyposh-font-monospace.png) | ![Monospace installed](docs/images/ohmyposh-font-monospace-install.png) |
+| ![Monospace GitHub](docs/images/ohmyposh-theme-monospace-github.png)  | ![Pythonrc Rich](docs/images/ohmyposh-pythonrc-rich.png)  |
+
 ## Gist
 
 - [Instalar y Configurar Oh-My-Posh V3 y Posh Git](https://gist.github.com/oleksis/8a4f79f23dc9514e87fa252fefcee327#file-oh-my-posh_posh-git-md)
