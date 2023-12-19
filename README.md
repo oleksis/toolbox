@@ -1,4 +1,5 @@
 # toolbox
+
 🧩 Developers Toolbox
 
 |   |   |
@@ -28,6 +29,12 @@ exit()
 # which python
 py -c "import sys; print(sys.version, sys.executable, sep='\n')"
 ```
+
+## Codespaces
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/oleksis/toolbox)
+
+When the `post-create-toolbox.sh` command finishes, run `. ./.bashrc` in the [Codespace](https://github.com/features/codespaces/) Terminal.
 
 ## Gist
 
