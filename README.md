@@ -16,6 +16,11 @@ git config --global user.email "YOUR_EMAIL"
 ln -s ~/toolbox/.bashrc.d ~/.bashrc.d
 ## Opcional: Python venv, .pythonrc
 ## [Python Launcher](https://github.com/brettcannon/python-launcher/blob/main/docs/install.md#installation)
+## [Pyenv](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-install)
+PYTHON_LAST='3.12.1'
+PYENV_VERSION=${PYTHON_LAST}
+env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install ${PYTHON_LAST}
+pyenv local ${PYENV_VERSION}
 py -m venv venv
 source venv/bin/activate
 PYTHONSTARTUP=./.pythonrc py
