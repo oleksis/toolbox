@@ -14,6 +14,10 @@ git config --global user.name "Mona Lisa"
 git config --global user.email "YOUR_EMAIL"
 # Setting ohmyposh bashrc
 ln -s ~/toolbox/.bashrc.d ~/.bashrc.d
+## Opcional: Python venv, .pythonrc
+python -m venv venv
+source venv/bin/activate
+PYTHONSTARTUP=./.pythonrc python3
 ```
 
 ## Gist
