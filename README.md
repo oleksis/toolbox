@@ -15,9 +15,13 @@ git config --global user.email "YOUR_EMAIL"
 # Setting ohmyposh bashrc
 ln -s ~/toolbox/.bashrc.d ~/.bashrc.d
 ## Opcional: Python venv, .pythonrc
-python -m venv venv
+## [Python Launcher](https://github.com/brettcannon/python-launcher/blob/main/docs/install.md#installation)
+py -m venv venv
 source venv/bin/activate
-PYTHONSTARTUP=./.pythonrc python3
+PYTHONSTARTUP=./.pythonrc py
+exit()
+# which python
+py -c "import sys; print(sys.version, sys.executable, sep='\n')"
 ```
 
 ## Gist
