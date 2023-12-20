@@ -1,6 +1,9 @@
+# syntax=docker/dockerfile:1
 FROM mcr.microsoft.com/devcontainers/python:3.12-bullseye
-LABEL org.opencontainers.image.source https://github.com/oleksis/toolbox
-LABEL org.opencontainers.image.description "🧩 Developers Toolbox"
+LABEL maintainer="Oleksis Fraga <oleksis.fraga at gmail.com>" \
+    org.opencontainers.image.source=https://github.com/oleksis/toolbox \
+    org.opencontainers.image.description="🧩 Developers Toolbox" \
+    org.opencontainers.image.licenses=MIT
 ARG PYTHON_LAST=3.12.1
 ENV PYTHON_LAST=$PYTHON_LAST
 ENV PYENV_VERSION=$PYTHON_LAST
