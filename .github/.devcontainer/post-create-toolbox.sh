@@ -9,4 +9,6 @@ ln -s $TOOLBOX_DIR/.bashrc.d ~/.bashrc.d
 . $TOOLBOX_DIR/.bashrc
 unset $TOOLBOX_DIR
 ## [Pyenv](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-install)
-env PYTHON_CONFIGURE_OPTS="--enable-shared" ~/.pyenv/bin/pyenv install ${PYTHON_LAST}
+if [ ! -d ~/.pyenv/versions/3.12.1 ]; then
+    env PYTHON_CONFIGURE_OPTS="--enable-shared" ~/.pyenv/bin/pyenv install ${PYTHON_LAST}
+fi
