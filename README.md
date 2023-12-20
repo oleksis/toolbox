@@ -7,6 +7,10 @@
 | ![Downloading Monospace](docs/images/ohmyposh-font-monospace.png) | ![Monospace installed](docs/images/ohmyposh-font-monospace-install.png) |
 | ![Monospace GitHub](docs/images/ohmyposh-theme-monospace-github.png)  | ![Pythonrc Rich](docs/images/ohmyposh-pythonrc-rich.png)  |
 
+## Video Youtube
+
+[![Developers Toolbox on WSL2](https://img.youtube.com/vi/NsrZIQW-7Pw/mqdefault.jpg)](https://youtu.be/NsrZIQW-7Pw)
+
 ## How to use
 
 ```bash
