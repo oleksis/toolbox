@@ -13,4 +13,4 @@ ENV PYENV_VERSION=$PYTHON_LAST
 #     && rm -rf /var/lib/apt/lists/*
 
 # COPY requirements-dev.txt /usr/local/requirements-dev.txt
-COPY --chmod=0755 .devcontainer/post-create-toolbox.sh /usr/local/post-create-toolbox.sh
+COPY --chmod=0755 .github/.devcontainer/post-create-toolbox.sh /usr/local/post-create-toolbox.sh
