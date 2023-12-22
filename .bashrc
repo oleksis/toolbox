@@ -1,7 +1,7 @@
 # .bashrc
 
-if [ -d ~/.bashrc.d ]; then
-    for rc in ~/.bashrc.d/*; do
+if [ -d $HOME/.bashrc.d ]; then
+    for rc in $HOME/.bashrc.d/*; do
         if [ -f "$rc" ]; then
             . "$rc"
         fi
