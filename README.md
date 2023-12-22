@@ -40,6 +40,14 @@ py -c "import sys; print(sys.version, sys.executable, sep='\n')"
 
 When the `post-create-toolbox.sh` command finishes, run `. ./.bashrc` in the [Codespace](https://github.com/features/codespaces/) Terminal.
 
+## Devcontainer
+
+```bash
+devcontainer build --config .github/.devcontainer/devcontainer.json --push true --workspace-folder . --image-name ghcr.io/oleksis/toolbox:latest
+
+devcontainer up --config ./.github/.devcontainer/devcontainer.json --workspace-folder .
+```
+
 ## Gist
 
 - [Instalar y Configurar Oh-My-Posh V3 y Posh Git](https://gist.github.com/oleksis/8a4f79f23dc9514e87fa252fefcee327#file-oh-my-posh_posh-git-md)
