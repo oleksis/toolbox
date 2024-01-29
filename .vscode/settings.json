@@ -9,11 +9,7 @@
   },
   "terminal.integrated.automationProfile.windows": {
     "path": "pwsh.exe",
-    "args": [
-      "-noexit",
-      "-file",
-      "${PROFILE}"
-    ]
+    "args": ["-noexit", "-file", "${PROFILE}"]
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
