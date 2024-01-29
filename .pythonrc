@@ -27,3 +27,4 @@ except ModuleNotFoundError:
 
 help = rich.inspect
 print = rich.print
+inspect = help
