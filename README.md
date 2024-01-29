@@ -2,10 +2,10 @@
 
 🧰 Developers Toolbox
 
-|   |   |
-|---|---|
-| ![Downloading Monospace](docs/images/ohmyposh-font-monospace.png) | ![Monospace installed](docs/images/ohmyposh-font-monospace-install.png) |
-| ![Monospace GitHub](docs/images/ohmyposh-theme-monospace-github.png)  | ![Pythonrc Rich](docs/images/ohmyposh-pythonrc-rich.png)  |
+|                                                                      |                                                                         |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| ![Downloading Monospace](docs/images/ohmyposh-font-monospace.png)    | ![Monospace installed](docs/images/ohmyposh-font-monospace-install.png) |
+| ![Monospace GitHub](docs/images/ohmyposh-theme-monospace-github.png) | ![Pythonrc Rich](docs/images/ohmyposh-pythonrc-rich.png)                |
 
 ## Video Youtube
 

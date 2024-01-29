@@ -1,5 +1,5 @@
 # Load pyenv automatically by appending
-# the following to 
+# the following to
 # ~/.bash_profile if it exists, otherwise ~/.profile (for login shells)
 # and ~/.bashrc (for interactive shells) :
 

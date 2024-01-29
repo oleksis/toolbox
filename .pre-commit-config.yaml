@@ -1,0 +1,34 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+        exclude: "^.vscode/Toolbox.code-profile$"
+      - id: check-yaml
+      - id: check-added-large-files
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.3
+    hooks:
+      - id: prettier
+      # - types_or: [css, javascript]
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.49.0
+    hooks:
+      - id: eslint
+        additional_dependencies:
+          - eslint@8.49.0
+          - eslint-config-prettier
+  # Add ruff
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.0.292
+    hooks:
+      - id: ruff
+        args: ["--ignore=E501", --fix, --exit-non-zero-on-fix]
+  - repo: https://github.com/psf/black
+    rev: 23.9.1
+    hooks:
+      - id: black
