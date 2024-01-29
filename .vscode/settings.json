@@ -1,6 +1,21 @@
 {
-  "editor.fontFamily": "'FiraCode NFM', 'Symbols Nerd Font', 'MonaspiceAr NF', 'MesloLGLDZ Nerd Font Regular', Meslo, 'Nerd Font', 'Nerd Font Mono', 'Nerd Font Propo', Consolas, 'Courier New', monospace",
-  "terminal.integrated.fontFamily": "'FiraCode NFM', 'Symbols Nerd Font', 'MonaspiceAr NF', 'MesloLGLDZ Nerd Font Regular', Meslo, 'Nerd Font', 'Nerd Font Mono', 'Nerd Font Propo', Consolas, 'Courier New', monospace",
+  "git.autofetch": true,
+  "editor.fontFamily": "'FiraCode Nerd Font', 'Symbols Nerd Font', 'MonaspiceAr NF', 'MesloLGLDZ Nerd Font Regular', Meslo, 'Nerd Font', 'Nerd Font Mono', 'Nerd Font Propo', Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font', 'Symbols Nerd Font', 'MonaspiceAr NF', 'MesloLGLDZ Nerd Font Regular', Meslo, 'Nerd Font', 'Nerd Font Mono', 'Nerd Font Propo', Consolas, 'Courier New', monospace",
   "editor.fontWeight": "normal",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.automationProfile.windows": {
+    "path": "pwsh.exe",
+    "args": [
+      "-noexit",
+      "-file",
+      "${PROFILE}"
+    ]
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
