@@ -9,3 +9,6 @@ if [ -d $HOME/.bashrc.d ]; then
 fi
 
 unset rc
+
+# Allow / Disallow global pip install
+export PIP_REQUIRE_VIRTUALENV=false
